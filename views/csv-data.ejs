@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title><%= title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <h1><%=data.name%></h1>
+    <input type="text" id="search" placeholder="search" onkeyup="searchFunction()" />
+     <div class="csv-table">
+       <table class="table-sort" id="table">
+        <thead>
+        <%
+        let i=0;
+        let table_data=JSON.parse(data.csv);
+        for(let r of table_data){ %>
+            <tr>
+         <%  
+          for(let c of r){ 
+           if(i==0){ %>
+            <th><%= c %></th>
+            <% }else{ %>
+            <td><%= c %></td>
+            <% }  } %>
+            </tr>
+        <% i++; if(i==1){ %>
+        </thead><tbody>
+        <% } } %>
+
+       </tbody>
+       </table>
+      
+      </ul>
+    </div>
+
+    
+    <script type="text/javascript" src="/scripts/home.js"></script>
+    <script src="https://leewannacott.github.io/table-sort-js/table-sort.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+  var $rows = $('#table tbody tr');
+$('#search').keyup(function() {
+    var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+
+    $rows.show().filter(function() {
+        var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(val);
+    }).hide();
+});
+
+
+    </script>
+ 
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+}
+li {
+  text-align: left;
+  list-style: none;
+  background: cornflowerblue;
+  margin: 5px auto;
+  padding: 5px 10px;
+  color: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.phone {
+  text-align: right !important;
+  float: right;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  border: 0;
+  border-bottom: 1px solid;
+  margin: 0 15px;
+}
+
+.fas.fa-window-close {
+  float: right;
+  margin-left: 20px;
+}
+.csv-headings {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.csv-table {
+  margin: auto;
+  width: 100%;
+}
+
+.table-sort {
+  margin: 20px;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.table-sort th {
+  background: cornflowerblue;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+.table-sort td {
+  border: 2px solid cornflowerblue;
+  background: #2a83c421;
+}
+.form {
+  position: relative;
+  padding-bottom: 50px;
+  max-width: 500px;
+  margin: auto;
+}
+.submit {
+  background: cornflowerblue;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  max-width: 100px;
+}
+input#search {
+  margin-left: 80%;
+  display: block;
+  font-size: 20px;
+}
+h1 {
+  margin-top: 20px;
+}

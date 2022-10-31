@@ -1,0 +1,32 @@
+Year,Industry_aggregation_NZSIOC,Industry_code_NZSIOC,Industry_name_NZSIOC,Units,Variable_code,Variable_name,Variable_category,Value
+2021,Level 1,99999,All industries,Dollars (millions),H01,Total income,Financial performance,"7,57,504"
+2021,Level 1,99999,All industries,Dollars (millions),H04,"Sales, government funding, grants and subsidies",Financial performance,"6,74,890"
+2021,Level 1,99999,All industries,Dollars (millions),H05,"Interest, dividends and donations",Financial performance,"49,593"
+2021,Level 1,99999,All industries,Dollars (millions),H07,Non-operating income,Financial performance,"33,020"
+2021,Level 1,99999,All industries,Dollars (millions),H08,Total expenditure,Financial performance,"6,54,404"
+2021,Level 1,99999,All industries,Dollars (millions),H09,Interest and donations,Financial performance,"26,138"
+2021,Level 1,99999,All industries,Dollars (millions),H10,Indirect taxes,Financial performance,"6,991"
+2021,Level 1,99999,All industries,Dollars (millions),H11,Depreciation,Financial performance,"27,801"
+2021,Level 1,99999,All industries,Dollars (millions),H12,Salaries and wages paid,Financial performance,"1,23,620"
+2021,Level 1,99999,All industries,Dollars (millions),H13,Redundancy and severance,Financial performance,275
+2021,Level 1,99999,All industries,Dollars (millions),H14,Salaries and wages to self employed commission agents,Financial performance,"2,085"
+2021,Level 1,99999,All industries,Dollars (millions),H19,Purchases and other operating expenses,Financial performance,"4,52,963"
+2021,Level 1,99999,All industries,Dollars (millions),H20,Non-operating expenses,Financial performance,"14,806"
+2021,Level 1,99999,All industries,Dollars (millions),H21,Opening stocks,Financial performance,"68,896"
+2021,Level 1,99999,All industries,Dollars (millions),H22,Closing stocks,Financial performance,"69,127"
+2021,Level 1,99999,All industries,Dollars (millions),H23,Surplus before income tax,Financial performance,"1,03,330"
+2021,Level 1,99999,All industries,Dollars (millions),H24,Total assets,Financial position,"25,12,677"
+2021,Level 1,99999,All industries,Dollars (millions),H25,Current assets,Financial position,"7,30,587"
+2021,Level 1,99999,All industries,Dollars (millions),H26,Fixed tangible assets,Financial position,"5,91,351"
+2021,Level 1,99999,All industries,Dollars (millions),H29,Other assets,Financial position,"11,90,739"
+2021,Level 1,99999,All industries,Dollars (millions),H30,Total equity and liabilities,Financial position,"25,12,677"
+2021,Level 1,99999,All industries,Dollars (millions),H31,Shareholders funds or owners equity,Financial position,"8,13,949"
+2021,Level 1,99999,All industries,Dollars (millions),H32,Current liabilities,Financial position,"9,33,093"
+2021,Level 1,99999,All industries,Dollars (millions),H33,Other liabilities,Financial position,"7,65,635"
+2021,Level 1,99999,All industries,Dollars,H34,Total income per employee count,Financial ratios,"4,00,900"
+2021,Level 1,99999,All industries,Dollars,H35,Surplus per employee count,Financial ratios,"54,700"
+2021,Level 1,99999,All industries,Percentage,H36,Current ratio,Financial ratios,78
+2021,Level 1,99999,All industries,Percentage,H37,Quick ratio,Financial ratios,71
+2021,Level 1,99999,All industries,Percentage,H39,Return on equity,Financial ratios,13
+2021,Level 1,99999,All industries,Percentage,H40,Return on total assets,Financial ratios,4
+2021,Level 1,99999,All industries,Percentage,H41,Liabilities structure,Financial ratios,32
